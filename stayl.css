@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 21px 0;
+    border-bottom: 1px solid grey;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.btn {
+    background: #FC004A;
+    color: white;
+    width: 256px;
+    height: 46px;
+    border-radius: 12px;
+    border: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+
+.menu-btn {
+    border: none;
+    background-color: inherit;
+    font-size: 25px;
+    color: #FC004A;
+    display: none;
+}
+
+main {
+    padding: 63px 0;
+}
+
+.hero-img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+h2 {
+    font-size: 32.48px;
+    font-weight: 400;
+    line-height: 40px;
+    margin: 20px 0;
+}
+
+.card {
+    width: 235px;
+    height: 391px;
+    box-shadow: 0px 4px 6px -4px #0000001A;
+    box-shadow: 0px 10px 15px -3px #0000001A;
+    border-radius: 10px;
+    padding: 10px;
+}
+.card p{
+    margin: 15px 0;
+    color: #FC004A;
+    font-size: 18px;
+}
+.btn2{
+    width: 40px;
+    height: 40px;
+    background-color: #FC004A;
+    font-size: 35px;
+    color: white;
+    border-radius: 10px;
+    margin-left: 150px;
+}
+.ota{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    gap: 673px;
+    padding-top: 81px ;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:768px) {
+    header img {
+        display: none;
+    }
+      
+    header {
+        padding: 21px;
+        display: flex;
+        justify-content: center;
+    }
+    .ota{
+        justify-content: center;
+    }
+    footer{
+        padding: 20px 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        gap: 15px;
+    }
+  
+}
+
+@media(max-width:550px) {
+    nav ul {
+        display: none;
+    }
+
+    .menu-btn {
+        display: block;
+    }
+}
